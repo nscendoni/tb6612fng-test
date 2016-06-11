@@ -8,7 +8,9 @@
 int pwm = 9;
 int ain1 = 13;
 int ain2 = 12;
-
+//Connect +5 to STB and VCC
+//Connect VM to battery
+//Connect all the ground
 
 
 void setup() {                
