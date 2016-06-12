@@ -8,7 +8,10 @@
 int pwm = 9;
 int ain1 = 13;
 int ain2 = 12;
-
+int stb = 10;
+//Connect +5 to STB and VCC
+//Connect VM to battery
+//Connect all the ground
 
 
 void setup() {                
@@ -16,6 +19,8 @@ void setup() {
   pinMode(pwm, OUTPUT);     
   pinMode(ain1, OUTPUT);     
   pinMode(ain2, OUTPUT);     
+  pinMode(stb, OUTPUT);     
+  digitalWrite(stb, HIGH);  
 }
 
 void loop() {
